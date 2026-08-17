@@ -1,5 +1,8 @@
 # 🤺🛡️ VALI — Vali Adversarial Lure Intelligence
 
+<img width="1983" height="793" alt="image" src="https://github.com/user-attachments/assets/ee483508-a6e1-4cc8-aa61-93b3c2602811" />
+
+
 ### **Progressive Defensive Deception Fabric for Turning Adversary Effort into Defender Intelligence**
 
 <p align="center">
