@@ -1,4 +1,6 @@
-# VALI Documentation Package
+# Vali-Adversarial-Lure-Intelligence-Documentation
+
+VALI — Vali Adversarial Lure Intelligence. Progressive deception fabric that turns attacker effort into defender insight
 
 **VALI — Deception-Driven Security for Adversarial Intelligence in Modern Systems**
 
@@ -6,13 +8,13 @@
 |-------|--------|
 | **Concept originator** | Upadrasta Harsha Vardhan |
 | **Conceptual inspiration** | Vāli (Vali) from the *Rāmāyaṇa* |
-| **Documentation style** | University / research-oriented technical monograph |
+| **Documentation style** | research-oriented technical monograph |
 | **System versions covered** | V1 → V10 (implemented reference codebase) |
 | **Horizon** | Vision through 2030 |
 
 ---
 
-## How to read this package
+## How to read this Vali-Adversarial-Lure-Intelligence-Documentation
 
 Start with the main monograph, then open supporting sections as needed.
 
