@@ -1,4 +1,4 @@
-🤺🛡# Vali-Adversarial-Lure-Intelligence-Documentation
+🤺🛡 # Vali-Adversarial-Lure-Intelligence-Documentation
 
 VALI — Vali Adversarial Lure Intelligence. Progressive deception fabric that turns attacker effort into defender insight
 
