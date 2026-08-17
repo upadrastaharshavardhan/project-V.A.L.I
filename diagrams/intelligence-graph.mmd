@@ -1,0 +1,69 @@
+flowchart TD
+
+    Actor["👤 ACTOR"]
+
+    Session["🔗 SESSION"]
+
+    Source["🌐 SOURCE"]
+
+    Tool["🛠️ TOOL"]
+
+    Command["⌨️ INTERACTION"]
+
+    Asset["🎭 DECOY ASSET"]
+
+    Technique["🎯 TECHNIQUE"]
+
+    Behavior["🧠 BEHAVIOR"]
+
+    Intent["🔍 INTENT"]
+
+    Campaign["⚔️ CAMPAIGN"]
+
+    Evidence["📜 EVIDENCE"]
+
+    Intelligence["💡 DEFENSIVE INTELLIGENCE"]
+
+    Detection["🛡️ DETECTION"]
+
+    Actor -->|"initiates"| Session
+
+    Source -->|"originates"| Session
+
+    Session -->|"uses"| Tool
+
+    Session -->|"contains"| Command
+
+    Session -->|"interacts with"| Asset
+
+    Command -->|"implements"| Technique
+
+    Command -->|"produces"| Behavior
+
+    Technique -->|"contributes to"| Behavior
+
+    Behavior -->|"suggests"| Intent
+
+    Session -->|"associated with"| Campaign
+
+    Behavior -->|"correlates with"| Campaign
+
+    Session -->|"generates"| Evidence
+
+    Command -->|"generates"| Evidence
+
+    Evidence -->|"supports"| Intelligence
+
+    Behavior -->|"supports"| Intelligence
+
+    Intent -->|"supports"| Intelligence
+
+    Campaign -->|"supports"| Intelligence
+
+    Intelligence -->|"produces"| Detection
+
+    Detection -->|"improves"| Defense["🔐 DEFENSIVE POSTURE"]
+
+    Defense -->|"feeds"| Policy["⚙️ DECEPTION POLICY"]
+
+    Policy -->|"controls"| Asset
