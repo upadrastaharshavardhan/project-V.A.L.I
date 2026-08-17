@@ -1,0 +1,76 @@
+flowchart TB
+
+    A["🌐 EXTERNAL ENVIRONMENT<br/>Suspicious / Adversarial Activity"]
+
+    A --> B["🛡️ VALI DECEPTION GATEWAY<br/>Traffic Classification<br/>Policy Evaluation<br/>Routing"]
+
+    B --> C["🎭 PROGRESSIVE DECEPTION FABRIC"]
+
+    C --> C1["Surface Lures"]
+    C --> C2["Service Decoys"]
+    C --> C3["Application Decoys"]
+    C --> C4["Identity Decoys"]
+    C --> C5["Workflow Decoys"]
+    C --> C6["High-Fidelity Isolated Environment"]
+
+    C1 --> D["📡 TELEMETRY FABRIC"]
+    C2 --> D
+    C3 --> D
+    C4 --> D
+    C5 --> D
+    C6 --> D
+
+    D --> D1["Network Events"]
+    D --> D2["Authentication Events"]
+    D --> D3["Application Events"]
+    D --> D4["Process Activity"]
+    D --> D5["Session Activity"]
+    D --> D6["Interaction Sequences"]
+
+    D1 --> E["🧠 ADVERSARIAL INTELLIGENCE ENGINE"]
+    D2 --> E
+    D3 --> E
+    D4 --> E
+    D5 --> E
+    D6 --> E
+
+    E --> E1["Behavior Profiling"]
+    E --> E2["Risk Scoring"]
+    E --> E3["TTP Analysis"]
+    E --> E4["Intent Estimation"]
+    E --> E5["Campaign Correlation"]
+
+    E1 --> F["🕸️ INTELLIGENCE GRAPH"]
+    E2 --> F
+    E3 --> F
+    E4 --> F
+    E5 --> F
+
+    F --> F1["Actor"]
+    F --> F2["Session"]
+    F --> F3["Tool"]
+    F --> F4["Technique"]
+    F --> F5["Asset"]
+    F --> F6["Campaign"]
+
+    F --> G["🎯 DEFENSIVE INTELLIGENCE"]
+
+    G --> G1["Detection Engineering"]
+    G --> G2["Threat Hunting"]
+    G --> G3["Security Hardening"]
+    G --> G4["SOC Investigation"]
+    G --> G5["Defender Reporting"]
+
+    G --> H["🔄 LEARNING LOOP"]
+
+    H --> C
+
+    R["🔐 SAFETY BOUNDARY<br/>Isolation • Least Privilege<br/>Controlled Egress • Synthetic Data"]
+
+    R -.-> C
+    R -.-> D
+    R -.-> E
+
+    P["🚫 REAL PRODUCTION ASSETS"]
+
+    P -. "HARD ISOLATION" .-> C
