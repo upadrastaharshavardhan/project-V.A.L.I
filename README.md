@@ -218,7 +218,7 @@ This leads to several research dimensions:
 
 ### 1. Deception
 
-How can defensive systems create believable but controlled environments?
+How can defensive systems create believable but controlled environments???
 
 ### 2. Observation
 
