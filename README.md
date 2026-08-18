@@ -9,7 +9,7 @@
 
 **VALI — Vali Adversarial Lure Intelligence**
 
-*Attackers spend. Defenders learn.*
+*Attackers spends. Defenders learn.*
 
 </p>
 
